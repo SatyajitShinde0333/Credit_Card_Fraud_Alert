@@ -19,7 +19,7 @@ plt.show()
 
 fig, ax = plt.subplots(figsize=(20,10))
 
-# Study relationship between features of data
+# Study relationship between features of data .. 
 corr = df.corr()
 sns.heatmap(corr, cmap="gray", annot_kws={'size':30}, ax=ax)
 ax.set_title("Imbalanced Correlation Matrix", fontsize=14)
